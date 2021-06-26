@@ -130,3 +130,17 @@ body {
 #covid-guidelines a {
     color: purple;
 }
+
+/* photo gallery */
+#photo-gallery {
+    clear: both;
+    line-height: 0; /* removes horizontal gap between pictures */
+    column-count: 3;
+    column-gap: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#photo-gallery img {
+    width: 100%
+}
