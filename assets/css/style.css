@@ -40,3 +40,15 @@ body {
     text-decoration: none;
     color: red;
 }
+
+.social {
+    text-align: center;
+}
+.social>li {
+    display: inline-block;
+}
+.social i {
+    font-size: 160%;
+    color: blue;
+    padding: 60px 50px 40px 50px;
+}
