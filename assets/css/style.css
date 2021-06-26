@@ -52,3 +52,30 @@ body {
     color: blue;
     padding: 60px 50px 40px 50px;
 }
+
+/* hero image */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image-large.jpg") no-repeat center center;
+    /*css animates zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);    /* from scale(1) means we're starting with the image at 100% of its size */ 
+    }
+    to {
+        transform: scale(1.1); /* to scale (1.1) means we're ending with the image 10% larger than its original size */
+    }
+}
